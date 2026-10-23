@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the HASTIKA dataset and shared-task overview; paper metadata will be added when available."
+title: "Project MANAS at HASTIKA / ICON 2026"
+type: software
+authors:
+  - name: "Project MANAS"
+repository-code: "https://github.com/robinpnalex/ProjectMANAS-HastikaICON2026"
+version: 0.1.0

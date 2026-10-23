@@ -1,0 +1,27 @@
+[project]
+name = "projectmanas-hastika"
+version = "0.1.0"
+description = "Project MANAS systems for HASTIKA at ICON 2026"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<3", "scikit-learn>=1.4,<2", "emoji>=2.14,<3", "ftfy>=6.2,<7"]
+
+[project.optional-dependencies]
+llm = ["torch>=2.2", "transformers==5.16.1", "peft==0.20.0", "bitsandbytes>=0.46,<1", "accelerate>=1.0,<2", "sentencepiece>=0.2", "protobuf>=4"]
+
+[project.scripts]
+hastika-prepare = "hastika.data.splits:main"
+hastika-run = "hastika.runner:main"
+hastika-train = "hastika.models.llm_classifier:main"
+hastika-tapt = "hastika.models.llm_tapt:main"
+hastika-predict = "hastika.inference.predict:main"
+hastika-ensemble = "hastika.evaluation.ensemble:main"
+hastika-evaluate = "hastika.evaluation.metrics:main"
+hastika-svm = "hastika.models.baseline_svm:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

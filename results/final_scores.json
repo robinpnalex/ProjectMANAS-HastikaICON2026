@@ -1,0 +1,21 @@
+{
+  "source": "author_report",
+  "evaluation": "official_final",
+  "averaging": "macro",
+  "a": {
+    "macro_f1": 0.825049,
+    "accuracy": 0.878412,
+    "members": 12,
+    "recipe": "configs/task_a/submitted.json"
+  },
+  "b": {
+    "macro_f1": 0.736678008,
+    "accuracy": 0.787879,
+    "members": 8,
+    "recipe": "configs/task_b/submitted.json"
+  },
+  "rankings": null,
+  "final_prediction_files_required": false,
+  "release_rescored": false,
+  "note": "Historical official scores; this curated implementation has not been GPU-retrained or officially rescored."
+}

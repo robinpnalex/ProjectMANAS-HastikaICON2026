@@ -1,0 +1,39 @@
+{
+  "organizer": "https://github.com/shankarb14/Hastika-ICON2026",
+  "redistribution": "Obtain data from organizers under their terms; no comment data is distributed here.",
+  "files": {
+    "binary_train.csv": {
+      "rows": 6446,
+      "sha256": "af52d9df8183426960b098fa5f852edac3009687cd2a861da0d26294865031eb"
+    },
+    "multiclass_train.csv": {
+      "rows": 3159,
+      "sha256": "85c367d9a1d844f0d76e7e94c2ec528758d7cf54ac8416c16d1d3e445c9a019b"
+    },
+    "hastika_binary_validation.csv": {
+      "rows": 806,
+      "sha256": "9eb59fa99f8ed7ee9f3b61967361c57d2fc13abaf3c1bf35a26bbe26ea8e3424"
+    },
+    "hastika_multiclass_validation.csv": {
+      "rows": 395,
+      "sha256": "b441e926c9d7088a92d455c5335019aadec0375d8a9e8f2bd81c455274b00ae9"
+    },
+    "hastika_binary_test.csv": {
+      "rows": 806,
+      "sha256": "6889110b307d55f7f0da9594eade70212876d7866b513edc100129bd35322966"
+    },
+    "hastika_multiclass_test.csv": {
+      "rows": 396,
+      "sha256": "a1df5078591dfbc7ad7b010cace0853888134b836063c01de237696b50073917"
+    }
+  },
+  "external": {
+    "filename": "offenseval_kn.csv",
+    "rows": 3247,
+    "sha256": "2575af6da7c7dc8be7f063a85580030fa7e3a675e7adc91d597c176d8a4856eb",
+    "source": "community-datasets/offenseval_dravidian, Kannada configuration",
+    "source_revision": null,
+    "processing": "research fetch_external.py: target insults / Not_offensive retained; short/native-script/self/known HASTIKA duplicates filtered",
+    "usage": "Comment column only in TAPT; source labels not classifier targets"
+  }
+}

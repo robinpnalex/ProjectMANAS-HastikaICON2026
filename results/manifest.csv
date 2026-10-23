@@ -1,0 +1,12 @@
+task,protocol,run,members,macro_f1,accuracy,source
+a,official_final,final_a,12,0.825049,0.878412,author_report
+b,official_final,final_b,8,0.736678008,0.787879,author_report
+a,local_holdout,run28_seed42,1,0.8563,0.8563,research log
+a,local_holdout,run34_3epoch,2,0.861,0.861,research log
+a,local_holdout,run35_tapt,4,0.8702,,research log
+a,local_holdout,run36_mixture,4,0.8721,0.8721,research log
+b,local_holdout,run23_4epoch,2,0.6872,0.7321,research log
+b,local_holdout,run36_tapt,2,0.6741,0.7321,research log
+b,local_holdout,run36_rdrop,2,0.7026,0.7528,research log
+b,local_holdout,run36_mixture,4,0.6966,0.7528,research log
+b,local_holdout,run39_session1,2,0.7056,0.7547,research log

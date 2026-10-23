@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "model": "google/gemma-4-12B",
+  "model_revision": null,
+  "mode": "holdout",
+  "classifier_epochs": 4,
+  "tapt_epochs": 2,
+  "lr": 0.0001,
+  "head_lr": 0.0005,
+  "lora_rank": 16,
+  "prompt": "short",
+  "class_weight": "balanced",
+  "label_smoothing": 0.05,
+  "bs": 8,
+  "grad_accum": 2,
+  "max_len": 320,
+  "tapt_bs": 1,
+  "tapt_grad_accum": 16,
+  "tapt_max_len": 128,
+  "member_count": 8,
+  "groups": [
+    {
+      "id": "run37",
+      "run": 37,
+      "tapt_seed": 42,
+      "classifier_seeds": [
+        42,
+        43
+      ],
+      "rdrop": 0.5
+    },
+    {
+      "id": "run38_session1",
+      "run": 38,
+      "session": 1,
+      "tapt_seed": 1,
+      "classifier_seeds": [
+        42,
+        43
+      ],
+      "rdrop": 0.0
+    },
+    {
+      "id": "run38_session2",
+      "run": 38,
+      "session": 2,
+      "tapt_seed": 2,
+      "classifier_seeds": [
+        44,
+        45
+      ],
+      "rdrop": 0.0
+    },
+    {
+      "id": "run38_session3",
+      "run": 38,
+      "session": 3,
+      "tapt_seed": 3,
+      "classifier_seeds": [
+        46,
+        47
+      ],
+      "rdrop": 0.0
+    }
+  ],
+  "aggregation": "equal_per_classifier",
+  "seed_status": "requested recipe seeds; historical replacement seeds not fully recovered",
+  "provenance": "author-confirmed membership; hyperparameters/requested seeds from research code",
+  "data_policy": "same-task labelled sources; training-only local TAPT; external evaluation-overlap exclusion"
+}

@@ -1,0 +1,27 @@
+{
+  "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+  "research_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+  "source_hashes": {
+    "src/hastika/common/preprocessing.py": "5ed482a6576168b691aadd9bcd5cac358d4799545ec8add66f5c08ffbacf3f17",
+    "src/hastika/task_b/llm_classifier.py": "f9c36573bb0c4b54c4b1bd44985489f0c5c542bd9b1d4dd20511491083ef6919",
+    "src/hastika/task_b/llm_tapt.py": "b492bdada735c0716fc8db63257669e6b4a8f1a632e29f0f8670cb5c3c82aad9",
+    "src/hastika/task_b/llm_screen.py": "25962609c89937e8145990a45d7f3b40d704bda72432e8d9bd50c08d57236d7c",
+    "experiments/build_gemma_notebooks.py": "6db126f55f577f29809fdfd6edfb965654531d0a06a05f8b36b03ad41f1e0f3f"
+  },
+  "changes": [
+    "Shared task-neutral utilities",
+    "Structured recipe orchestration",
+    "Checkpoint export/reload",
+    "ID-aware probability bundles",
+    "External text overlap exclusion",
+    "Raw comment files and excluded experimental branches omitted"
+  ],
+  "optimizer_arithmetic": "Historical classifier/TAPT update loops retained, including complete accumulation windows only.",
+  "observed_environment": {
+    "transformers": "5.16.1",
+    "peft": "0.20.0",
+    "hardware": "Tesla T4 (14.6 GiB reported), two cards used by historical Kaggle queue"
+  },
+  "historical_full_environment_lock_available": false,
+  "source_equivalence_note": "Release filters held-out/final-test matches from external text. Research OffensEval file has one normalized Task A test-text match. Official scores have not been remeasured after this exclusion."
+}

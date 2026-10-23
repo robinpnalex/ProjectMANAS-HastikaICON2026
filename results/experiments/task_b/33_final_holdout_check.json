@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 33,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/33_final_holdout_check.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "holdout twin of the Task B final: Run 23's four 4-epoch seeds + Run 32's prompt ensemble (standard and definitions, seeds 42/43); eight-model combination vs Run 23's recipe",
+  "outcome": "Earlier final-recipe holdout twin prepared; no completed execution result was recovered.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/33_final_holdout_check.ipynb",
+    "notebook_sha256": "7a521902c319e22acbfd6b328ad0facc09554ce0bb3be9ca216d7898e734024f",
+    "code_cells_sha256": "b71d7fa65b2870c59fc0b64a7cc15a8815f7f539057cce0b047fee698204954e"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

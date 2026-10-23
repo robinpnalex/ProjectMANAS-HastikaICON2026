@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 15,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/15_capacity_and_schedule.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "15 capacity and schedule",
+  "outcome": "Capacity and schedule experiment source retained; no execution log uniquely matched to this notebook was recovered.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/15_capacity_and_schedule.ipynb",
+    "notebook_sha256": "4d1d91ae7c98821d2bb8092c812cc9a174cab20e4f2e58b68f7be669697c21a8",
+    "code_cells_sha256": "a648becb0015ce9f124e031d0e8cc1d5f2a9bf692f7cc76dcdd9ed363863a9be"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

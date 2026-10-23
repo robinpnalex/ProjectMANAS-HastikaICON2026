@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 10,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/10_frozen_embeddings_svm.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_negative",
+  "method": "test an RBF SVM on frozen MuRIL embeddings",
+  "outcome": "Frozen MuRIL embeddings + RBF SVM: documented CodaBench validation macro-F1 about 0.71, accuracy about 0.70; rejected.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/10_frozen_embeddings_svm.ipynb",
+    "notebook_sha256": "4675e21a195c8eb09a89cd2f85e0ddcd9899b84e191f2baee7cd9ff7dd6564cc",
+    "code_cells_sha256": "33ab0bbff720909e8e513cb101b53e82ce86cfcaec0c0ee8e8bc86fd8f8906ee"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run10_muril_embeddings_svm.log",
+      "sha256": "369ee181df3d609679f506fffc0f88a92cbfa648f63872da7e417995af35ee2e",
+      "line_count": 880,
+      "commits_mentioned": [],
+      "metric_summaries": [
+        {
+          "line": 854,
+          "label": "holdout",
+          "macro_f1": 0.7045,
+          "accuracy": 0.7066,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

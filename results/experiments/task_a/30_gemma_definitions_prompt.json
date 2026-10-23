@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 30,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/30_gemma_definitions_prompt.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "the organisers' Hate/Non-hate definitions in the prompt",
+  "outcome": "Definitions-prompt ablation prepared; no completed execution result was recovered for this notebook.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/30_gemma_definitions_prompt.ipynb",
+    "notebook_sha256": "c4ce15a4d67e5bac1a6337ad52cea80afb6526c7d8e956f774c8d830fa45ee21",
+    "code_cells_sha256": "75976602e212b0e447ab9b462f5c1754bca901f508699743533108d0230735da"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

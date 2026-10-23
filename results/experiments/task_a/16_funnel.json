@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 16,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/16_funnel.ipynb",
+  "notebook_kind": "exclusion_record",
+  "status": "excluded_record",
+  "method": "which component-level ideas actually help? Six arms screened",
+  "outcome": "Historical funnel screening reports gains for 10 epochs (+0.028), larger MuRIL (+0.021), and two-layer reset (+0.016); external-label arms did not help. Evaluation-side TAPT is part of its setup.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/16_funnel.ipynb",
+    "notebook_sha256": "0eeeebe425e3506c8f7cf20712bc0590ad7e74e98a48246e59e620dcf2dfa060",
+    "code_cells_sha256": "db64cdad644d0e8b2c1fc64368047f98af3d13766b0dc8427dee17c31caa9011"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run16_funnel.log",
+      "sha256": "d88ba5298c81328bc411d8bbe4ce40465d3613b752da6c2c94c874846d152646",
+      "line_count": 3726,
+      "commits_mentioned": [],
+      "metric_summaries": [
+        {
+          "line": 1848,
+          "label": "stage 1 held-out",
+          "macro_f1": 0.5891,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": "The historical funnel invokes evaluation-side TAPT through its sweep runner."
+}

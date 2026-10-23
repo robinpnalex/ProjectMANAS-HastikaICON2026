@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 1,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/01_baseline_sweep.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "which encoder/loss is useful?",
+  "outcome": "TAPT MuRIL five-fold OOF macro-F1 0.6013; the related competition validation submission scored 0.5922. Original sweep holdout arms include base 0.5948 and abusive-checkpoint 0.5718; do not merge protocols.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/01_baseline_sweep.ipynb",
+    "notebook_sha256": "b4c89768b10c0df18f32609ac612584fe834aa32a5ebc8ca3eca5325edf65b3f",
+    "code_cells_sha256": "d7f639cdaa22f6028c43813427cea6c657259268fa233ad55734ed117b67b2c2"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run01_baseline_sweep_holdout_arms.log",
+      "sha256": "6a2249cd72e93d24afb86bd038fbf9462a4e4fca1060e1ab9f6bd53561914515",
+      "line_count": 1914,
+      "commits_mentioned": [],
+      "metric_summaries": [
+        {
+          "line": 15,
+          "label": "task B  5-fold OOF",
+          "macro_f1": 0.5948,
+          "accuracy": 0.6796,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 513,
+          "label": "holdout",
+          "macro_f1": 0.0967,
+          "accuracy": 0.1556,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 528,
+          "label": "holdout",
+          "macro_f1": 0.0954,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 1436,
+          "label": "holdout",
+          "macro_f1": 0.5948,
+          "accuracy": 0.661,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 1451,
+          "label": "holdout",
+          "macro_f1": 0.5948,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 1886,
+          "label": "holdout",
+          "macro_f1": 0.5718,
+          "accuracy": 0.6229,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 1901,
+          "label": "holdout",
+          "macro_f1": 0.5718,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 1903,
+          "label": "work/b_abusive.log:holdout",
+          "macro_f1": 0.5718,
+          "accuracy": 0.6229,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 1904,
+          "label": "work/b_abusive.log:holdout",
+          "macro_f1": 0.5718,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 1905,
+          "label": "work/b_base.log:holdout",
+          "macro_f1": 0.5948,
+          "accuracy": 0.661,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 1906,
+          "label": "work/b_base.log:holdout",
+          "macro_f1": 0.5948,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

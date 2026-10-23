@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 36,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/36_tapt_rdrop_holdout_twin.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "TAPT (2 epochs) + R-Drop vs TAPT, one adapter, seeds 42/43",
+  "outcome": "Holdout TAPT x2 0.6741; TAPT/R-Drop x2 0.7026; mixture of four 0.6966. Direct R-Drop interval includes zero; mixture versus TAPT-only interval is positive.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/36_tapt_rdrop_holdout_twin.ipynb",
+    "notebook_sha256": "f0557b8ec7fce0e21f836c5db1538cef5c9e1caca125bca611ac35e984ee96d6",
+    "code_cells_sha256": "9cb8b13a58e37cfbcd51bca4d62539d67698842d029f943a465a3daf51a414f5"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run36_tapt_rdrop_holdout.log",
+      "sha256": "644ef23366cbc056e0fbae31e23da8031ea00ea3c216834c939bb8e748387110",
+      "line_count": 803,
+      "commits_mentioned": [
+        "360c131"
+      ],
+      "metric_summaries": [
+        {
+          "line": 779,
+          "label": "tapt_rdrop_s42",
+          "macro_f1": 0.6778,
+          "accuracy": 0.7358,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.798,
+            "Geo-political": 0.708,
+            "Others": 0.568,
+            "Political": 0.832,
+            "Religion": 0.785,
+            "Violence": 0.377
+          }
+        },
+        {
+          "line": 780,
+          "label": "tapt_rdrop_s43",
+          "macro_f1": 0.7045,
+          "accuracy": 0.7585,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.818,
+            "Geo-political": 0.708,
+            "Others": 0.601,
+            "Political": 0.836,
+            "Religion": 0.822,
+            "Violence": 0.442
+          }
+        },
+        {
+          "line": 781,
+          "label": "tapt_s42",
+          "macro_f1": 0.6933,
+          "accuracy": 0.7434,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.815,
+            "Geo-political": 0.738,
+            "Others": 0.521,
+            "Political": 0.821,
+            "Religion": 0.797,
+            "Violence": 0.468
+          }
+        },
+        {
+          "line": 782,
+          "label": "tapt_s43",
+          "macro_f1": 0.6541,
+          "accuracy": 0.7208,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.799,
+            "Geo-political": 0.625,
+            "Others": 0.493,
+            "Political": 0.821,
+            "Religion": 0.748,
+            "Violence": 0.438
+          }
+        },
+        {
+          "line": 784,
+          "label": "TAPT x2 (Run 25 recipe) (2/2)",
+          "macro_f1": 0.6741,
+          "accuracy": 0.7321,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.801,
+            "Geo-political": 0.656,
+            "Others": 0.514,
+            "Political": 0.823,
+            "Religion": 0.772,
+            "Violence": 0.479
+          }
+        },
+        {
+          "line": 785,
+          "label": "TAPT + R-Drop x2 (2/2)",
+          "macro_f1": 0.7026,
+          "accuracy": 0.7528,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.81,
+            "Geo-political": 0.73,
+            "Others": 0.583,
+            "Political": 0.836,
+            "Religion": 0.806,
+            "Violence": 0.451
+          }
+        },
+        {
+          "line": 786,
+          "label": "FINAL: all four (4/4)",
+          "macro_f1": 0.6966,
+          "accuracy": 0.7528,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.817,
+            "Geo-political": 0.677,
+            "Others": 0.581,
+            "Political": 0.839,
+            "Religion": 0.794,
+            "Violence": 0.472
+          }
+        }
+      ],
+      "paired_comparisons": [
+        {
+          "line": 788,
+          "label": "FINAL: all fo - TAPT x2 (Run",
+          "macro_f1_difference": 0.0225,
+          "ci95": [
+            0.0039,
+            0.0419
+          ],
+          "p_better": 0.99,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        },
+        {
+          "line": 789,
+          "label": "FINAL: all fo - TAPT + R-Drop",
+          "macro_f1_difference": -0.006,
+          "ci95": [
+            -0.0339,
+            0.0218
+          ],
+          "p_better": 0.32,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        },
+        {
+          "line": 790,
+          "label": "TAPT + R-Drop - TAPT x2 (Run",
+          "macro_f1_difference": 0.0285,
+          "ci95": [
+            -0.0043,
+            0.0622
+          ],
+          "p_better": 0.96,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        }
+      ],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

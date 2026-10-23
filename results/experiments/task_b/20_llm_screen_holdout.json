@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 20,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/20_llm_screen_holdout.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "partial_failure",
+  "method": "does a 4-bit QLoRA LLM beat the Run 9 MuRIL recipe on the fixed 530-row holdout?",
+  "outcome": "Holdout MuRIL 0.6151, Sarvam-1 0.5567, their mixture 0.6187. Gemma ranked best in language-model screening but classifier setup failed on PEFT/torchao.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/20_llm_screen_holdout.ipynb",
+    "notebook_sha256": "d157864427b225ad40a2c70130527c7bb4bc3b18c1d882f81327cab5939e2553",
+    "code_cells_sha256": "e281e0524346a6c4984f12a955c29931a8b23483dd12ebf43b7bfebe2d80e902"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run20_llm_screen_holdout.log",
+      "sha256": "48a8fc60efa5e6b72c94824a8b956582f07b5e7f80f8685ec55a9de9b73ba2cd",
+      "line_count": 353,
+      "commits_mentioned": [
+        "670df1b"
+      ],
+      "metric_summaries": [
+        {
+          "line": 238,
+          "label": "MuRIL Run 9 recipe",
+          "macro_f1": 0.6151,
+          "accuracy": 0.6509,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.704,
+            "Geo-political": 0.642,
+            "Others": 0.5,
+            "Political": 0.789,
+            "Religion": 0.672,
+            "Violence": 0.383
+          }
+        },
+        {
+          "line": 333,
+          "label": "MuRIL (Run 9 recipe)",
+          "macro_f1": 0.6151,
+          "accuracy": 0.6509,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.704,
+            "Geo-political": 0.642,
+            "Others": 0.5,
+            "Political": 0.789,
+            "Religion": 0.672,
+            "Violence": 0.383
+          }
+        },
+        {
+          "line": 334,
+          "label": "sarvamai/sarvam-1",
+          "macro_f1": 0.5567,
+          "accuracy": 0.6075,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.685,
+            "Geo-political": 0.488,
+            "Others": 0.437,
+            "Political": 0.757,
+            "Religion": 0.714,
+            "Violence": 0.259
+          }
+        },
+        {
+          "line": 339,
+          "label": "ensemble 50/50",
+          "macro_f1": 0.6187,
+          "accuracy": 0.6698,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.734,
+            "Geo-political": 0.585,
+            "Others": 0.528,
+            "Political": 0.792,
+            "Religion": 0.724,
+            "Violence": 0.349
+          }
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

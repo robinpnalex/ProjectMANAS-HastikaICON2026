@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 20,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/20_translate_to_english.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_negative",
+  "method": "translate to English (Sarvam-Translate), then hateBERT; 1,079-row holdout of train + released validation",
+  "outcome": "Translation to English plus hateBERT: holdout macro-F1 0.7275 versus MuRIL 0.7803; the SVM/MuRIL reference was 0.8155. A prior translation dependency-install attempt failed.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/20_translate_to_english.ipynb",
+    "notebook_sha256": "a61fefb547eb2d234c052dad8aa8c514cf288e49371adaa8bdf5cb6095c12300",
+    "code_cells_sha256": "3075d94979f3f229b5b5ad79132ca5c9b91efe87eaa1064b2f4b5b2641da885a"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run20_translate_hatebert_holdout.log",
+      "sha256": "f511f1f241171374ce7326801d2102d468bf5bd465c707ce3a6d6de5f33fc01c",
+      "line_count": 463,
+      "commits_mentioned": [],
+      "metric_summaries": [],
+      "paired_comparisons": [
+        {
+          "line": 449,
+          "label": "hateBERT - MuRIL",
+          "macro_f1_difference": -0.0529,
+          "ci95": [
+            -0.078,
+            -0.0268
+          ],
+          "p_better": 0.0,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        },
+        {
+          "line": 450,
+          "label": "thirds - (SVM+MuRIL)",
+          "macro_f1_difference": -0.0065,
+          "ci95": [
+            -0.0186,
+            0.0056
+          ],
+          "p_better": 0.15,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        },
+        {
+          "line": 451,
+          "label": "(SVM+hateBERT) - SVM",
+          "macro_f1_difference": -0.0194,
+          "ci95": [
+            -0.0362,
+            -0.0019
+          ],
+          "p_better": 0.02,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        },
+        {
+          "line": 452,
+          "label": "canonicalised SVM - SVM",
+          "macro_f1_difference": 0.0028,
+          "ci95": [
+            -0.0019,
+            0.0082
+          ],
+          "p_better": 0.88,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        }
+      ],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    },
+    {
+      "research_log_path": "results/task_a/logs/run20_translate_to_english_failed_ai4bharat.log",
+      "sha256": "fba3127d293b6a44d89ff310e44c52a3f2e0b443f42e4b47434f068d8445655b",
+      "line_count": 218,
+      "commits_mentioned": [],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

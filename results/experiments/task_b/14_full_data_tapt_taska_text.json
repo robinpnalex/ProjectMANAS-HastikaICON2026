@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 14,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/14_full_data_tapt_taska_text.ipynb",
+  "notebook_kind": "exclusion_record",
+  "status": "excluded_record",
+  "method": "add permitted Task A training comments as unlabelled TAPT text, then train the current Task B recipe",
+  "outcome": "Cross-task text TAPT full fits/artifact are recorded; no confirmed competition score. Evaluation-side text exposure is outside the clean release.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/14_full_data_tapt_taska_text.ipynb",
+    "notebook_sha256": "9d561a1acf5324651c499cace064a9588d42fa5dad77ff14ed848930558720ac",
+    "code_cells_sha256": "d254977d0a1041b38f37e6c5234d023c01b21473cdb28d305b38c92cc3ace760"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": "Cross-task unlabelled adaptation exposes evaluation-side comments."
+}

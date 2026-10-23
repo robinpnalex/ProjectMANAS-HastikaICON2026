@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 9,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/09_rdrop_one_layer.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_full_fit",
+  "method": "submit full-data R-Drop on the current one-layer recipe",
+  "outcome": "One-layer TAPT MuRIL + R-Drop five-seed full fit: CodaBench validation macro-F1 0.6410 / accuracy 0.6937; distinct from the final eight-model Gemma result.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/09_rdrop_one_layer.ipynb",
+    "notebook_sha256": "00ba07d4391760652969b3422ae7e6029463f84843c430a87473563e76cab47c",
+    "code_cells_sha256": "f6ea586ee19d6f5066170ea6156b190bd711f8f186ae781728109090070a276e"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run09_rdrop_full.log",
+      "sha256": "7aeeb4cb2660397820ecb7ee781ded982c7863d6f690fb4997080a0b43ca2015",
+      "line_count": 2610,
+      "commits_mentioned": [],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

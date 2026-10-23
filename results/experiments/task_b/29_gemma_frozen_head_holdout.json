@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 29,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/29_gemma_frozen_head_holdout.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "freeze Gemma-4-12B and train only the six-way classification head, two seeds on the fixed 530-row holdout",
+  "outcome": "Frozen-backbone/head-only ablation prepared; no completed execution result was recovered.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/29_gemma_frozen_head_holdout.ipynb",
+    "notebook_sha256": "28f9304f858cf5ba6b22149b7bc179a5fe0da4b57ed7e6226550bd3dfde1a58b",
+    "code_cells_sha256": "352d9315da79ee2458d6a6864b76a092c3afd5e62d157307846c2e719772ed25"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

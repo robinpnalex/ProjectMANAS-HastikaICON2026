@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 28,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/28_gemma_holdout_final.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_with_collapse",
+  "method": "Gemma-4-12B QLoRA on Task A: holdout vs char SVM and a 50/50 blend, then full fits and three ZIPs",
+  "outcome": "Gemma seed 42 holdout macro-F1 0.8563 versus char-SVM 0.8117. Seed 43 collapsed to 0.3372; the printed two-seed mixture was 0.8545. Both full fits were healthy. This is an older system, not the 12-model final ensemble.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/28_gemma_holdout_final.ipynb",
+    "notebook_sha256": "004b8eb33cb6f65a10fc673bb22975fbf2763b71211471eb66717895e9e7018a",
+    "code_cells_sha256": "81d43204b20dbae0f8ea8fea181133dafc7336227226b6fbe2bee0a99d465858"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run28_gemma_holdout_full.log",
+      "sha256": "bf0dee94127138d5ade3ea27f4aa87899d49a97504f498cf15175ac5ac7c7306",
+      "line_count": 614,
+      "commits_mentioned": [
+        "ae088e6"
+      ],
+      "metric_summaries": [
+        {
+          "line": 23,
+          "label": "char SVM (holdout)",
+          "macro_f1": 0.8117,
+          "accuracy": 0.8119,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.817,
+            "Hate": 0.807
+          }
+        },
+        {
+          "line": 593,
+          "label": "char SVM",
+          "macro_f1": 0.8117,
+          "accuracy": 0.8119,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.817,
+            "Hate": 0.807
+          }
+        },
+        {
+          "line": 595,
+          "label": "Gemma seed 42",
+          "macro_f1": 0.8563,
+          "accuracy": 0.8563,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.856,
+            "Hate": 0.857
+          }
+        },
+        {
+          "line": 596,
+          "label": "Gemma seed 43",
+          "macro_f1": 0.3372,
+          "accuracy": 0.5088,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.674,
+            "Hate": 0.0
+          }
+        },
+        {
+          "line": 597,
+          "label": "Gemma, 2 seed(s)",
+          "macro_f1": 0.8545,
+          "accuracy": 0.8545,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.854,
+            "Hate": 0.854
+          }
+        },
+        {
+          "line": 598,
+          "label": "Gemma + SVM 50/50",
+          "macro_f1": 0.8471,
+          "accuracy": 0.8471,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.848,
+            "Hate": 0.846
+          }
+        }
+      ],
+      "paired_comparisons": [
+        {
+          "line": 599,
+          "label": "gemma - svm",
+          "macro_f1_difference": 0.0428,
+          "ci95": [
+            0.0205,
+            0.0668
+          ],
+          "p_better": 1.0,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        },
+        {
+          "line": 600,
+          "label": "blend - gemma",
+          "macro_f1_difference": -0.0074,
+          "ci95": [
+            -0.0226,
+            0.0078
+          ],
+          "p_better": 0.16,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        },
+        {
+          "line": 601,
+          "label": "blend - svm",
+          "macro_f1_difference": 0.0353,
+          "ci95": [
+            0.0187,
+            0.0531
+          ],
+          "p_better": 1.0,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        }
+      ],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

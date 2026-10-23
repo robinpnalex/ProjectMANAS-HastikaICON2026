@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 5,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/05_rdrop_full_data.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "test R-Drop against a matched control, both on all 6,401 rows",
+  "outcome": "Prepared matched R-Drop/control full fits; no completed execution result was recovered.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/05_rdrop_full_data.ipynb",
+    "notebook_sha256": "27867c0904920040e68b9e0ec16a5d27555c7d8a6c2eca8b70d0bfcfc0a2b5d5",
+    "code_cells_sha256": "dcb7026f1be0231f479d35d0c9f0cc0802531d127051b8456e507f19e886498f"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

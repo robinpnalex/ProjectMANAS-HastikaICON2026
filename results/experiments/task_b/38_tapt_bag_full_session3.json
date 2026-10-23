@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 38,
+  "session": 3,
+  "notebook": "notebooks/experiments/task_b/38_tapt_bag_full_session3.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_full_fit",
+  "method": "TAPT bag, full data: 3 TAPT runs (2 epochs) x 2 classifiers",
+  "outcome": "Independent TAPT full-fit session completed; two classifiers per session, all three sessions contribute to official final B. No independent session test score.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/38_tapt_bag_full_session3.ipynb",
+    "notebook_sha256": "a09a5a749e7c12979c37f94d6968fb2f3f30c1be981913ba3ccee5ab08037bce",
+    "code_cells_sha256": "2ec514f9fcc9af8e771ee9cad626a01ca2bcfbce371541a85af92a1561667839"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run38_tapt_bag_full_t3.log",
+      "sha256": "270228ffb1b00fffe83d385875ba00b1b61d67ac3282b666dd9ca7dda675f79f",
+      "line_count": 411,
+      "commits_mentioned": [
+        "10069c0"
+      ],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 2,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

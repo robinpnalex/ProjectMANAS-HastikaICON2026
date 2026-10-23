@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 23,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/23_gemma_epochs_seeds_final.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "4 vs 3 epochs on the holdout, then four 4-epoch full fits",
+  "outcome": "Four-epoch two-seed holdout macro-F1 0.6872 / accuracy 0.7321 versus three-epoch 0.6792. Four full-data fits were later trained; they are not the author-confirmed final eight-model ensemble.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/23_gemma_epochs_seeds_final.ipynb",
+    "notebook_sha256": "46fd7d263095e4a9aa9c60f9d9eed6638aaeeb3cf0f60e69823dca8f69fe6933",
+    "code_cells_sha256": "9b662149d84f31a2b95df3fa343b52eaca38aea4fde5348e6c90e31c4455cf2c"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run23_gemma_4ep_holdout_full.log",
+      "sha256": "301bd6613c39660aa53e97e3586908b85ee4f00f5bd7dadab35a4f0c88781b58",
+      "line_count": 704,
+      "commits_mentioned": [
+        "ae088e6"
+      ],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

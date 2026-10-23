@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 27,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/27_gemma_tapt_holdout.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "TAPT then classification vs no TAPT on the holdout",
+  "outcome": "TAPT holdout ablation source prepared; no completed execution result was recovered for this notebook.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/27_gemma_tapt_holdout.ipynb",
+    "notebook_sha256": "0a559b2f69e0efc5a2e2ac85cb9c3ae079f1dae25e66009ff7266cfae35b9f2c",
+    "code_cells_sha256": "2f1b53db4c57a44ea77392ad9b154f509f67374476b995edd222357c3f531af4"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

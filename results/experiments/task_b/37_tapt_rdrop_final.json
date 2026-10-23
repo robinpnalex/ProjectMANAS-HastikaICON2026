@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 37,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/37_tapt_rdrop_final.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_full_fit",
+  "method": "full data: TAPT (2 epochs) + R-Drop, two 4-epoch seeds",
+  "outcome": "Two TAPT/R-Drop four-epoch full fits completed; part of the official final B ensemble. No independent group test score.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/37_tapt_rdrop_final.ipynb",
+    "notebook_sha256": "803d9f7bf0b4eeb5c5621cc57be13e9e663d6895e00bf2870a430d9fb19a6811",
+    "code_cells_sha256": "d2f9a7ecff57cedcd8b67bb0bfde40c0b702b7e44f46b8cfe7c6a487c1e5a5f7"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run37_tapt_rdrop_full.log",
+      "sha256": "e1f5a93a6c922fe492d13070fd5171a9621710124d2bb186af3431aa693b4e7a",
+      "line_count": 642,
+      "commits_mentioned": [
+        "360c131"
+      ],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 2,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

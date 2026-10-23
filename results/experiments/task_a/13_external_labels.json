@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 13,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/13_external_labels.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "can the external corpus's labels be trained on? control vs mix vs stage",
+  "outcome": "External-label mixing/staging experiment prepared; no completed execution result was recovered for this notebook.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/13_external_labels.ipynb",
+    "notebook_sha256": "8120eefeed992d674416a65176a749279c4280896fc0cd344db2238452b761c7",
+    "code_cells_sha256": "c9b9e7f9f44dcd2b564c0b4c655f6e542ecb412429a163b51410ce816f58b4dc"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

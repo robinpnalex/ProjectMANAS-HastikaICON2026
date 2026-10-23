@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 39,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/39_tapt_bag_holdout.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "TAPT bag, holdout",
+  "outcome": "Independent TAPT holdout session 1: singles 0.8535 and 0.8610; two-model mean 0.8675 macro-F1.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/39_tapt_bag_holdout.ipynb",
+    "notebook_sha256": "876808662f7617bcf176a1604c2d89861e12381af38248a3f200bf89c7ca4501",
+    "code_cells_sha256": "81d8436202279485cad4fda3de484ce175521ced40a3e37fbface4ea7fe68358"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run39_tapt_bag_holdout_t1.log",
+      "sha256": "0a47cdee5c40b20248180305f88d9d5f5a2ef1313ed3cda4db0147a401bf7d9b",
+      "line_count": 458,
+      "commits_mentioned": [
+        "360c131"
+      ],
+      "metric_summaries": [
+        {
+          "line": 441,
+          "label": "TAPT seed 1, classifier seed 42",
+          "macro_f1": 0.8535,
+          "accuracy": 0.8536,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.852,
+            "Hate": 0.856
+          }
+        },
+        {
+          "line": 442,
+          "label": "TAPT seed 1, classifier seed 43",
+          "macro_f1": 0.861,
+          "accuracy": 0.861,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.861,
+            "Hate": 0.861
+          }
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 8,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/08_muril_tfidf_ensemble.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "test a MuRIL + TF-IDF OOF blend",
+  "outcome": "Run 8: 0.7890 CodaBench validation macro-F1. Run 9 full-fit recipe: 0.8187 macro-F1 / 0.8189 accuracy. These are distinct from the OOF blend estimate.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/08_muril_tfidf_ensemble.ipynb",
+    "notebook_sha256": "b88e0263f876b22e4dba99d331c9cd7d0c1a3ee4ca6cddb14f60e0c94ae54edd",
+    "code_cells_sha256": "46cec1bfbaed415cc09db34a5518e63330c22326936151050eea1367cb3ab1be"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run09_task_a_ensemble.log",
+      "sha256": "754cb52920996dad8695f2b52fc8c505aa6150aa2f95e9f626a1dc31bfb6d16d",
+      "line_count": 2256,
+      "commits_mentioned": [],
+      "metric_summaries": [
+        {
+          "line": 17,
+          "label": "task A  5-fold OOF",
+          "macro_f1": 0.8073,
+          "accuracy": 0.8074,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 2218,
+          "label": "OOF",
+          "macro_f1": 0.7932,
+          "accuracy": 0.7936,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 2219,
+          "label": "threshold-tuned OOF",
+          "macro_f1": 0.7944,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 2229,
+          "label": "best blend OOF",
+          "macro_f1": 0.8233,
+          "accuracy": 0.8235,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

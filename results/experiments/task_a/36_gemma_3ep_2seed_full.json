@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 36,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/36_gemma_3ep_2seed_full.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "TAPT + R-Drop 0.5 vs TAPT, seeds 42/43, same adapter",
+  "outcome": "Prepared source variant with no uniquely matched completed execution. Do not assign a related holdout notebook's score to this full-fit/alternative version.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/36_gemma_3ep_2seed_full.ipynb",
+    "notebook_sha256": "c0555a39879864b92317f8ffb49f10b13dfac66c62dca1f6e77caee5430c780f",
+    "code_cells_sha256": "882f890db512aa14ac236a57cbad5e8a01968d62a9b2c1c452bd38998d2a577c"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

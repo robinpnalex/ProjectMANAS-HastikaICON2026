@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 14,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/14_third_member_blend.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "does XLM-R as a third ensemble member help?",
+  "outcome": "Third-member XLM-R blend prepared; no completed execution result was recovered for this notebook.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/14_third_member_blend.ipynb",
+    "notebook_sha256": "4ecc6cf42287f31a2b716b769b4e96684451b6b1d92655dcf68781fb2c461ff7",
+    "code_cells_sha256": "ef44201e6f94a5e5151c97a37e6aba661dac639a7b6d876c8f5906b081a3b137"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

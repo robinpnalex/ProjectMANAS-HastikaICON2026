@@ -73,3 +73,9 @@ python -m unittest discover -s tests -v
 ```
 
 CPU tests cover synthetic split boundaries, recipe composition, invalid source labels, external text filtering, probability alignment, averaging and packaging. They do not measure GPU training, base-model availability or official accuracy. The paper should state those limits plainly.
+
+## Historical experiment notebooks
+
+`notebooks/experiments/` preserves the original experimental record separately from the supported top-level launchers. Each original notebook has a companion result file, status, code/source hashes and related-log summary. Code cells in the 72 included historical snapshots are unchanged from the source export, while saved outputs and execution counters are cleared. Original clone paths and old experimental APIs remain as historical context; no current-package compatibility or fresh GPU validation is claimed for those notebooks.
+
+For nine excluded cases the notebook is a documentation-only record. It preserves the reported outcome and exclusion reason without restoring label-recovery or excluded evaluation-adaptation implementations. The catalogue accounts for all 81 originals. Historical score claims remain tied to the source log/documentation; modifying a historical notebook to run against current code would be a new reproduction attempt, not proof of its old measurement.

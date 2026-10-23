@@ -22,7 +22,20 @@ Both tasks use Gemma-4-12B with NF4 4-bit QLoRA, a classification head over the 
 | Run 38 session 3: TAPT | 2 | 2 |
 | **Total** | **12** | **8** |
 
-The training math comes from the research implementation. This repository provides named recipes, split reconstruction, explicit data boundaries, checkpoint export, and ID-aware probability averaging. It also includes a TF-IDF/LinearSVC comparator. Historical exploratory pipelines and prediction CSVs are outside this release.
+The training math comes from the research implementation. This repository provides named recipes, split reconstruction, explicit data boundaries, checkpoint export, and ID-aware probability averaging. It also includes a TF-IDF/LinearSVC comparator and the historical experiment notebooks with individual outcome records. Prediction CSVs are outside the required release.
+
+## Experiments and individual results
+
+The experiment collection covers **all 81 original notebook records**: 72 retain their historical code, and 9 retain results/exclusion notes while omitting leakage-related implementation code. Baselines, negative findings, failed attempts, unrun proposals and full-data fits remain visible.
+
+- [Task A: notebook-by-notebook findings](notebooks/experiments/task_a/README.md)
+- [Task B: notebook-by-notebook findings](notebooks/experiments/task_b/README.md)
+- [All outcomes as a CSV](results/notebook_results.csv)
+- [Machine-readable experiment catalogue](results/experiment_catalog.json)
+
+Every notebook starts with its individual finding, execution status and a link to its JSON result record. The records include source hashes and numerical summary extracts from retained research logs. Unrun experiments receive no invented scores, and full-fit components do not inherit the final ensemble score.
+
+These are historical source snapshots, with original setup paths and experimental APIs preserved. They have not been migrated or GPU-validated against the current package. The two top-level launchers remain the supported final-system execution path. See the [experiment-history guide](notebooks/experiments/README.md).
 
 ## Install
 
@@ -95,14 +108,15 @@ src/hastika/data/      same-task splits and external text exclusions
 src/hastika/models/    QLoRA classifier, chunked TAPT, TF-IDF/SVM
 src/hastika/evaluation/ probability alignment, averaging, metrics, ZIP packaging
 src/hastika/inference/ checkpoint reload and prediction
-notebooks/             small Kaggle launchers pinned to release tag v0.1.0
+notebooks/             supported Kaggle launchers pinned to release tag v0.1.0
+notebooks/experiments/ complete historical notebook catalogue and individual findings
 results/               official scores and historical local result records
 docs/                  competition, data, results, reproduction and release notes
 paper/                 manuscript status and bibliography
 tests/                 CPU data/provenance/alignment checks using synthetic fixtures
 ```
 
-Raw/derived comments, checkpoints, probability arrays and generated submissions stay in ignored local directories. Cross-task label-recovery experiments, derived-label datasets, and their outputs are excluded. The source audit and changes from the historical implementation are described in [release notes](docs/release_notes.md).
+Raw/derived comments, checkpoints, probability arrays and generated submissions stay in ignored local directories. Cross-task label-recovery code, derived-label datasets, and dependent artifacts are excluded; the experiment catalogue preserves their exclusion status and historical outcomes. The source audit and changes from the historical implementation are described in [release notes](docs/release_notes.md).
 
 ## Citation and terms
 

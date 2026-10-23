@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 15,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/15_full_data_muril_large.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_full_fit",
+  "method": "MuRIL-large version of the Run 9 recipe, full data",
+  "outcome": "MuRIL-large full fit completed and produced predictions; not scored in the recorded competition phase.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/15_full_data_muril_large.ipynb",
+    "notebook_sha256": "42706f1d8de74a2303aefa21a74c50f8444efdf05109f012f613b9c6d7ee5e41",
+    "code_cells_sha256": "1cf2e349793d26b1c34bb4a906cb77f952c153d8b41ce11c2d4033c5a303fa30"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run15_muril_large_full.log",
+      "sha256": "9c54a973ad31309ddc8c7caec8bc9947ef506866d421e0c73b05e7fefdeb580e",
+      "line_count": 4919,
+      "commits_mentioned": [],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

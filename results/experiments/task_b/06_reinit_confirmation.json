@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 6,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/06_reinit_confirmation.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "confirm one layer at seeds 43/44",
+  "outcome": "Additional-seed averaged OOF: one-layer reset about 0.614 versus two-layer reset about 0.612.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/06_reinit_confirmation.ipynb",
+    "notebook_sha256": "94cd7fe0058ff6938237333df34ebdde6f9ba21bd6a17ddfeda51e83878d26cf",
+    "code_cells_sha256": "78eb0fe2facb10fe921ca55da7257fa796a9e633bc69f06ebf5aa996819417d3"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run06_reinit_confirmation.log",
+      "sha256": "c6a1e1752712a2622a76d191bfc35b8e7c58f05db0ea57b9bafb033e6018a733",
+      "line_count": 9429,
+      "commits_mentioned": [],
+      "metric_summaries": [
+        {
+          "line": 2670,
+          "label": "OOF",
+          "macro_f1": 0.6026,
+          "accuracy": 0.6481,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 2671,
+          "label": "OOF",
+          "macro_f1": 0.6037,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 4900,
+          "label": "OOF",
+          "macro_f1": 0.6127,
+          "accuracy": 0.6564,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 4901,
+          "label": "OOF",
+          "macro_f1": 0.6135,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 7130,
+          "label": "OOF",
+          "macro_f1": 0.6083,
+          "accuracy": 0.6599,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 7131,
+          "label": "OOF",
+          "macro_f1": 0.6099,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 9359,
+          "label": "OOF",
+          "macro_f1": 0.6082,
+          "accuracy": 0.6602,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 9360,
+          "label": "OOF",
+          "macro_f1": 0.6093,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

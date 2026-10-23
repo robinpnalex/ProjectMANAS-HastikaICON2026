@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 36,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/36_tapt_rdrop_holdout_twin.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "TAPT + R-Drop 0.5 vs TAPT, seeds 42/43, same adapter",
+  "outcome": "Holdout TAPT x2 0.8619; TAPT/R-Drop x2 0.8647; all four 0.8721. Direct R-Drop difference interval includes zero; the mixture provides useful development evidence.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/36_tapt_rdrop_holdout_twin.ipynb",
+    "notebook_sha256": "5155dabff2469ac660c44735dac42e92bf22dd7400ba5a0224ff17af22b0361d",
+    "code_cells_sha256": "daff1500c28ea651f53c97db0246f3d8f2478ea1eb7f845a9bf4c15fc036ec5c"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run36_tapt_rdrop_holdout.log",
+      "sha256": "c1b85068d384a1d768cf73c0cfe584191079a95c48d7bebe555e9b1ee03514f6",
+      "line_count": 998,
+      "commits_mentioned": [
+        "360c131"
+      ],
+      "metric_summaries": [
+        {
+          "line": 974,
+          "label": "tapt_rdrop_s42",
+          "macro_f1": 0.8526,
+          "accuracy": 0.8526,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.851,
+            "Hate": 0.854
+          }
+        },
+        {
+          "line": 975,
+          "label": "tapt_rdrop_s43",
+          "macro_f1": 0.8582,
+          "accuracy": 0.8582,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.857,
+            "Hate": 0.859
+          }
+        },
+        {
+          "line": 976,
+          "label": "tapt_s42",
+          "macro_f1": 0.8563,
+          "accuracy": 0.8563,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.858,
+            "Hate": 0.855
+          }
+        },
+        {
+          "line": 977,
+          "label": "tapt_s43",
+          "macro_f1": 0.8573,
+          "accuracy": 0.8573,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.856,
+            "Hate": 0.858
+          }
+        },
+        {
+          "line": 979,
+          "label": "TAPT x2 (Run 33 recipe) (2/2)",
+          "macro_f1": 0.8619,
+          "accuracy": 0.8619,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.862,
+            "Hate": 0.862
+          }
+        },
+        {
+          "line": 980,
+          "label": "TAPT + R-Drop x2 (2/2)",
+          "macro_f1": 0.8647,
+          "accuracy": 0.8647,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.863,
+            "Hate": 0.866
+          }
+        },
+        {
+          "line": 981,
+          "label": "FINAL: all four (4/4)",
+          "macro_f1": 0.8721,
+          "accuracy": 0.8721,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.871,
+            "Hate": 0.873
+          }
+        }
+      ],
+      "paired_comparisons": [
+        {
+          "line": 983,
+          "label": "FINAL: all fo - TAPT x2 (Run",
+          "macro_f1_difference": 0.0102,
+          "ci95": [
+            0.0,
+            0.0204
+          ],
+          "p_better": 0.98,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        },
+        {
+          "line": 984,
+          "label": "FINAL: all fo - TAPT + R-Drop",
+          "macro_f1_difference": 0.0074,
+          "ci95": [
+            -0.0037,
+            0.0185
+          ],
+          "p_better": 0.91,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        },
+        {
+          "line": 985,
+          "label": "TAPT + R-Drop - TAPT x2 (Run",
+          "macro_f1_difference": 0.0028,
+          "ci95": [
+            -0.0121,
+            0.0176
+          ],
+          "p_better": 0.64,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        }
+      ],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

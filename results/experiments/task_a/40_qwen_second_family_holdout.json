@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 40,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/40_qwen_second_family_holdout.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "second model family: Qwen3-8B-Base x2 + Gemma TAPT x2 (the final recipe), all trained in the notebook; Gemma TAPT + Qwen (equal weight) vs Gemma TAPT x2",
+  "outcome": "Qwen3-8B plus a Gemma TAPT reference was prepared; no completed result was recovered. It is not part of the author-confirmed final ensemble.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/40_qwen_second_family_holdout.ipynb",
+    "notebook_sha256": "76887a57ecd96c726edfa63e2f245010425c2baa35d8f5f09c7428e832b86f53",
+    "code_cells_sha256": "5c1233bcd15002bea1166b8dab7dce4dffe0749de715144ff9a356bb29dbfc17"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

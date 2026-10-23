@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 31,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/31_gemma_tapt.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "partial_failure",
+  "method": "TAPT: LoRA next-token pretraining on training text + external corpus, then classification",
+  "outcome": "Holdout baseline completed at macro-F1/accuracy 0.8610; TAPT ran out of GPU memory. The current notebook source was subsequently patched.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/31_gemma_tapt.ipynb",
+    "notebook_sha256": "b0204aa220b85b3e6b72eae2e2df530d336ba11522dafe48a71e3bc8edc209ae",
+    "code_cells_sha256": "ab4a03c976bf29214578ba7d1f3d97849b3971fd305c66fb3e2237803581bd67"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run31_gemma_tapt_holdout.log",
+      "sha256": "f267fa87436f5eb37f8336b77448138098d871c6277f0d0f99d79f96b728fea4",
+      "line_count": 487,
+      "commits_mentioned": [
+        "428f733"
+      ],
+      "metric_summaries": [
+        {
+          "line": 472,
+          "label": "base seed 42",
+          "macro_f1": 0.8563,
+          "accuracy": 0.8563,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.856,
+            "Hate": 0.857
+          }
+        },
+        {
+          "line": 474,
+          "label": "base seed 43",
+          "macro_f1": 0.8573,
+          "accuracy": 0.8573,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.859,
+            "Hate": 0.856
+          }
+        },
+        {
+          "line": 476,
+          "label": "base, 2 seed(s)",
+          "macro_f1": 0.861,
+          "accuracy": 0.861,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.862,
+            "Hate": 0.86
+          }
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 25,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/25_gemma_final_recipe.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "**TAPT final**: TAPT **2 epochs**, then four 4-epoch fits on all 3,532 rows",
+  "outcome": "Four-seed TAPT full-fit recipe prepared/regenerated; no matched completed execution result was recovered. It is not a component of the confirmed final B ensemble.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/25_gemma_final_recipe.ipynb",
+    "notebook_sha256": "0bf9a11563cf5b51ea31aac6be9e505bd42368ff06f771c992eef52086348e81",
+    "code_cells_sha256": "15f6102f7a37c04164c5f8f9628a354cdacbe5a9d0a9a2806255c615ca4a6bcc"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 31,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/31_gemma_tapt_full.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "TAPT: LoRA next-token pretraining on training text + external corpus, then classification",
+  "outcome": "Prepared source variant with no uniquely matched completed execution. Do not assign a related holdout notebook's score to this full-fit/alternative version.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/31_gemma_tapt_full.ipynb",
+    "notebook_sha256": "d29eab22c05ccf655739bd6c7ca79e7888b7d863678a246d9b2d6c9688efa26e",
+    "code_cells_sha256": "167631fb8d0e9a851328d945feaea691d593b2c68e0f8239891cf757d1d45d9c"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

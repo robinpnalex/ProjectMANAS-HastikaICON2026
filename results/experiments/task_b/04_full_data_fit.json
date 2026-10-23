@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 4,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/04_full_data_fit.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "original two-layer full-data fit",
+  "outcome": "Historical full-data recipe was superseded; no completed execution result was recovered for this notebook.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/04_full_data_fit.ipynb",
+    "notebook_sha256": "df6473b12eb01363f9a9131e4db8c52dd155eee54923164eb5170751ee8fb354",
+    "code_cells_sha256": "b383d44f661477b16e4a62b1bdcfad354b016dfec2120cfd700dcd5574adf141"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

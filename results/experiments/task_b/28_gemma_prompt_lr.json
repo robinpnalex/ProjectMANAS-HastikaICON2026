@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 28,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/28_gemma_prompt_lr.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "the organisers' category definitions in the prompt; lr 2e-4",
+  "outcome": "Prompt/learning-rate ablation prepared; definitions prompts were later measured in Run 30. No separate completed result was recovered for this notebook.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/28_gemma_prompt_lr.ipynb",
+    "notebook_sha256": "dd0efe7fe67895a1ab34b07612db0deb77e16550918bc4aab17afd4545c22dcb",
+    "code_cells_sha256": "72d4564b724f489cdc02da21c02d9448ac08aaa8d7b407f30db13bf93f097cd2"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 27,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/27_run25_validation_and_test.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "fit the fixed Run 25 0.60/0.33/0.07 blend on original training data for an honest released-validation score, then refit on train plus validation for released-test predictions",
+  "outcome": "Fixed Run 25 weights on original-train fit: released-validation macro-F1 0.8149858189789974 / accuracy 0.815136476426799, 806 rows; later full fit has no local test score.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/27_run25_validation_and_test.ipynb",
+    "notebook_sha256": "3af55583935b83aa3ef4ffe0de9ac132860129340ef9446f29e8df3fd039dd97",
+    "code_cells_sha256": "1e8006f77dfa0530badc41057ac0f5d9e91cb4ddb971046ddff04aa57894ac6d"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run27_run25_validation_and_test.log",
+      "sha256": "416e8c173bd0aad23c7d5cb443a88a3a6d03a75d090a4f0ce74af36d1cc74716",
+      "line_count": 112,
+      "commits_mentioned": [],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

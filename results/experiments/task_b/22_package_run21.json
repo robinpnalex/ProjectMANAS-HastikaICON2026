@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 22,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/22_package_run21.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_full_fit",
+  "method": "Run 21's 2-seed Gemma-4-12B submission, standalone (nothing attached, so both full fits retrained)",
+  "outcome": "Two three-epoch full fits and packaging completed; no new local holdout score for the full-data models.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/22_package_run21.ipynb",
+    "notebook_sha256": "353c53756d42ca0000a805fe7309089231aecf70ee3deb54d13935df9d9759f8",
+    "code_cells_sha256": "85c87e59d64aa5059cefd19c8cb092e6696fcf13cd1acd80014993215c868e4f"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run22_gemma_3ep_2seeds_full.log",
+      "sha256": "e9fa238857ba9bec627deb97c20012ffafe153a25be60e85b870fee72c730409",
+      "line_count": 207,
+      "commits_mentioned": [
+        "ae088e6"
+      ],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

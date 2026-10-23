@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 39,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/39_tapt_bag_holdout.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "TAPT bag holdout, `TAPT_SEED` 1",
+  "outcome": "Independent TAPT holdout pair: macro-F1 0.7056 / accuracy 0.7547. A collapsed requested seed was retried; keep requested/effective-seed provenance distinct.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/39_tapt_bag_holdout.ipynb",
+    "notebook_sha256": "5ee581d5c9b1c842af341329d803f5256db1c54ee4a17f95c824fa071f511c6f",
+    "code_cells_sha256": "7ff7102d0a714b1fe09d8935e43c43791bad57843459e6aab2ece397b9d29227"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run39_tapt_bag_holdout_t1.log",
+      "sha256": "d0ff07cb48b8193acc821e577c98a39dfca955b7e82c087a7a130f53326b9af8",
+      "line_count": 430,
+      "commits_mentioned": [
+        "5668d8e"
+      ],
+      "metric_summaries": [
+        {
+          "line": 413,
+          "label": "TAPT seed 1, classifier seed 42",
+          "macro_f1": 0.6956,
+          "accuracy": 0.7453,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.822,
+            "Geo-political": 0.725,
+            "Others": 0.538,
+            "Political": 0.818,
+            "Religion": 0.765,
+            "Violence": 0.506
+          }
+        },
+        {
+          "line": 414,
+          "label": "TAPT seed 1, classifier seed 43",
+          "macro_f1": 0.6883,
+          "accuracy": 0.7415,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.808,
+            "Geo-political": 0.687,
+            "Others": 0.504,
+            "Political": 0.814,
+            "Religion": 0.797,
+            "Violence": 0.521
+          }
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

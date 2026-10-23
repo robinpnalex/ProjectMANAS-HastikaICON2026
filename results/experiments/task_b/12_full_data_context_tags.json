@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 12,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/12_full_data_context_tags.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "partial_failure",
+  "method": "train the context-tagged winning recipe on all labelled rows and package a submission",
+  "outcome": "All five context-tagged full fits completed, but packaging stopped on an incorrect R-Drop log assertion. No confirmed competition score.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/12_full_data_context_tags.ipynb",
+    "notebook_sha256": "4de7e57e7f4fb6da09ad4d96409afa7f94bbc7fbdf45b2961e283b4154bfaf24",
+    "code_cells_sha256": "06688f4357f656761548dbcffa0c41cf64c4b62d0d335d6b67267eb8924d5f8e"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run12_context_tags_full.log",
+      "sha256": "649e68530f8d68440e5f4adcc4a1914154c087184e3571d55be2160eb02e009f",
+      "line_count": 2658,
+      "commits_mentioned": [],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

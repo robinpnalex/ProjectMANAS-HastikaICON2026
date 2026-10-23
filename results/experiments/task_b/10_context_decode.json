@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 10,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/10_context_decode.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "does a violent word mean Violence only when no target group is named?",
+  "outcome": "Context-dependent decoding on MuRIL probabilities was prepared; no completed notebook result was recovered. An earlier SVM nested signal is supporting analysis, not this notebook's measured result.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/10_context_decode.ipynb",
+    "notebook_sha256": "967cdf9f66eaaacffa26ac647747997f0f54d31ae5c24918cc2a99adffd16b00",
+    "code_cells_sha256": "1370a32d08fd6b36735e477d10323f8dc52548423997add682c0f8b816fc7a85"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

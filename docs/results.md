@@ -18,4 +18,6 @@ The separate historical local measurements in `results/manifest.csv` must retain
 - B Run 23's 0.6872 uses two holdout models; its older full-fit snapshot used four.
 - B Run 36 has TAPT 0.6741, TAPT/R-Drop 0.7026, and their mixture 0.6966. Retain all arms when discussing that comparison.
 
+The full experiment history is in [the notebook catalogue](../notebooks/experiments/README.md), [all-notebook outcomes](../results/notebook_results.csv), and individual JSON files under `results/experiments/`. Every original notebook has an entry, including negative findings, failed runs, prepared experiments with no recovered execution result, and result-only exclusions. A log attached by run number is identified as related evidence rather than proof that the currently exported notebook was its executed version. `manifest.csv` remains a selected numeric comparison table, not the complete experimental inventory.
+
 No GPU training or official rescoring was performed for this source release. Its external-text exclusion policy differs from the old stream for one Task A test-text match. Historical scores therefore should not be advertised as newly verified performance of a strictly filtered rerun. See `source_provenance.json` and the data protocol.

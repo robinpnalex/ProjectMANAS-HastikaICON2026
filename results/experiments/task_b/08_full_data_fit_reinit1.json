@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 8,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/08_full_data_fit_reinit1.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_full_fit",
+  "method": "train current candidate on all data and infer validation",
+  "outcome": "One-layer five-seed full fit: CodaBench validation macro-F1 0.6299. This is an earlier evaluation phase.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/08_full_data_fit_reinit1.ipynb",
+    "notebook_sha256": "7dc8716656c367039fc2ab22e2d290de6ecc1973cc84f9ca1fcce92662255fb6",
+    "code_cells_sha256": "01e5afeef67b4779b2ff880172f6b25de14ed9e540fe5253a49c7bb07f52732f"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run08_full_data_reinit1.log",
+      "sha256": "31a6f8eef2e486ea25980d917562caf5e4a2d14678480213afd7e4605c3da50e",
+      "line_count": 2635,
+      "commits_mentioned": [],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

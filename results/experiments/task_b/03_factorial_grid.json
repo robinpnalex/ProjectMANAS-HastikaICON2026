@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 3,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/03_factorial_grid.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "more TAPT text, vocabulary extension, auxiliary head",
+  "outcome": "Factorial comparison of TAPT corpus, vocabulary and auxiliary head: D0/V0/noaux remained best; vocabulary extension reduced scores. No new final test score.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/03_factorial_grid.ipynb",
+    "notebook_sha256": "6dab379af9397b407bfe4aa497c8327a67fe118403c996f07f24ca76ac740aee",
+    "code_cells_sha256": "abf392e8b2c15d5cd38c5cb7c3c23e2919e4f0a4255cda172490e3ce37f25aff"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

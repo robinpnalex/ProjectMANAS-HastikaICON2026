@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 29,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/29_gemma_epochs.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "4 epochs vs 3 on the holdout",
+  "outcome": "This log reports three-epoch two-seed macro-F1 0.8610 versus four-epoch blend 0.8452. Run 34 is a separate matched-seed comparison with a different four-epoch score.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/29_gemma_epochs.ipynb",
+    "notebook_sha256": "3e00bf10094c9acb805b038f83eb9b016cc825c8c8f126409de55a6285f1338c",
+    "code_cells_sha256": "f11ebc23ed91e6d04f859398ad757a0ae94f967564ccf45ca5a8c39061f34a9f"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run29_gemma_epochs.log",
+      "sha256": "2e3b7ecc936f95e3932145532ee1e7621721a2037a435cfaf954bff95df5b9ad",
+      "line_count": 768,
+      "commits_mentioned": [
+        "428f733"
+      ],
+      "metric_summaries": [
+        {
+          "line": 747,
+          "label": "base seed 42",
+          "macro_f1": 0.8563,
+          "accuracy": 0.8563,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.856,
+            "Hate": 0.857
+          }
+        },
+        {
+          "line": 749,
+          "label": "base seed 43",
+          "macro_f1": 0.8573,
+          "accuracy": 0.8573,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.859,
+            "Hate": 0.856
+          }
+        },
+        {
+          "line": 751,
+          "label": "base, 2 seed(s)",
+          "macro_f1": 0.861,
+          "accuracy": 0.861,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.862,
+            "Hate": 0.86
+          }
+        },
+        {
+          "line": 752,
+          "label": "ep4 seed 42",
+          "macro_f1": 0.8461,
+          "accuracy": 0.8462,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.845,
+            "Hate": 0.847
+          }
+        },
+        {
+          "line": 754,
+          "label": "ep4 seed 43",
+          "macro_f1": 0.583,
+          "accuracy": 0.5867,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.544,
+            "Hate": 0.622
+          }
+        },
+        {
+          "line": 756,
+          "label": "ep4, 2 seed(s)",
+          "macro_f1": 0.8452,
+          "accuracy": 0.8452,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Non-Hate": 0.844,
+            "Hate": 0.846
+          }
+        }
+      ],
+      "paired_comparisons": [
+        {
+          "line": 758,
+          "label": "ep4 - base",
+          "macro_f1_difference": -0.0157,
+          "ci95": [
+            -0.0333,
+            0.0011
+          ],
+          "p_better": 0.04,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        }
+      ],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

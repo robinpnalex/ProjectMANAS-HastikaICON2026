@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 19,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/19_oof_best_recipe.ipynb",
+  "notebook_kind": "exclusion_record",
+  "status": "excluded_record",
+  "method": "measure the current one-layer R-Drop recipe on five held-out folds after adding the released labels",
+  "outcome": "Historical shared-TAPT OOF: macro-F1 0.6123 / accuracy 0.6609; last-checkpoint macro-F1 0.6120. Treat as a transductive diagnostic.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/19_oof_best_recipe.ipynb",
+    "notebook_sha256": "6759390581b43de5b766163747cb6d310c7cf6a8892f02a07de00965b4433fb8",
+    "code_cells_sha256": "efdca551c1f78f58e13c82f9f71c5ba692506452717c0c02faa8e7151f8732d7"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run19_oof_best_recipe.log",
+      "sha256": "a65462893c8ca7df6fc502c195002e119d00fba58a11436a872cd045c836944d",
+      "line_count": 2714,
+      "commits_mentioned": [],
+      "metric_summaries": [
+        {
+          "line": 2666,
+          "label": "OOF",
+          "macro_f1": 0.6123,
+          "accuracy": 0.6609,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        },
+        {
+          "line": 2667,
+          "label": "OOF",
+          "macro_f1": 0.612,
+          "accuracy": null,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {}
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": "Shared evaluation-side TAPT makes the reported OOF experiment transductive."
+}

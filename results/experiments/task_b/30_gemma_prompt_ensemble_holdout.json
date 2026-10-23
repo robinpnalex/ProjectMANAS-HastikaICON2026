@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 30,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/30_gemma_prompt_ensemble_holdout.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "average the standard and definitions-prompt Gemma probabilities across two seeds each on the fixed holdout",
+  "outcome": "Short prompt x2 0.6830; definitions prompt x2 0.6840; four-model prompt mixture 0.6882 macro-F1 / 0.7321 accuracy. Improvement interval spans zero.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/30_gemma_prompt_ensemble_holdout.ipynb",
+    "notebook_sha256": "13adaf026d5c4ce56551585366af4658643cd6187d049b520f6152e0d97e0349",
+    "code_cells_sha256": "3275a101680930618167c7f00693f861d20912238563a43fdf226e607cb74f28"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run30_gemma_prompt_ensemble_holdout.log",
+      "sha256": "69ca5dd9aed59b4200c30fc6956444bafe851184a1feb43345108a7a13ad646e",
+      "line_count": 547,
+      "commits_mentioned": [],
+      "metric_summaries": [
+        {
+          "line": 526,
+          "label": "short_s42",
+          "macro_f1": 0.6566,
+          "accuracy": 0.7057,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.769,
+            "Geo-political": 0.657,
+            "Others": 0.513,
+            "Political": 0.812,
+            "Religion": 0.779,
+            "Violence": 0.41
+          }
+        },
+        {
+          "line": 527,
+          "label": "short_s43",
+          "macro_f1": 0.653,
+          "accuracy": 0.7038,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.773,
+            "Geo-political": 0.62,
+            "Others": 0.537,
+            "Political": 0.79,
+            "Religion": 0.779,
+            "Violence": 0.42
+          }
+        },
+        {
+          "line": 528,
+          "label": "defs_s42",
+          "macro_f1": 0.6694,
+          "accuracy": 0.7132,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.78,
+            "Geo-political": 0.658,
+            "Others": 0.57,
+            "Political": 0.791,
+            "Religion": 0.763,
+            "Violence": 0.455
+          }
+        },
+        {
+          "line": 529,
+          "label": "defs_s43",
+          "macro_f1": 0.6737,
+          "accuracy": 0.7208,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.785,
+            "Geo-political": 0.676,
+            "Others": 0.579,
+            "Political": 0.794,
+            "Religion": 0.775,
+            "Violence": 0.434
+          }
+        },
+        {
+          "line": 531,
+          "label": "short prompt, 2 seeds",
+          "macro_f1": 0.683,
+          "accuracy": 0.7226,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.778,
+            "Geo-political": 0.73,
+            "Others": 0.558,
+            "Political": 0.804,
+            "Religion": 0.794,
+            "Violence": 0.434
+          }
+        },
+        {
+          "line": 532,
+          "label": "definitions prompt, 2 seeds",
+          "macro_f1": 0.684,
+          "accuracy": 0.7302,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.791,
+            "Geo-political": 0.722,
+            "Others": 0.587,
+            "Political": 0.806,
+            "Religion": 0.779,
+            "Violence": 0.42
+          }
+        },
+        {
+          "line": 533,
+          "label": "prompt ensemble, 4 models",
+          "macro_f1": 0.6882,
+          "accuracy": 0.7321,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.792,
+            "Geo-political": 0.732,
+            "Others": 0.599,
+            "Political": 0.8,
+            "Religion": 0.773,
+            "Violence": 0.434
+          }
+        }
+      ],
+      "paired_comparisons": [
+        {
+          "line": 535,
+          "label": "defs mean - short mean           diff",
+          "macro_f1_difference": 0.001,
+          "ci95": [
+            -0.0279,
+            0.0287
+          ],
+          "p_better": 0.53,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        },
+        {
+          "line": 536,
+          "label": "ensemble - short mean            diff",
+          "macro_f1_difference": 0.0052,
+          "ci95": [
+            -0.0176,
+            0.0273
+          ],
+          "p_better": 0.67,
+          "interpretation": "Logged paired development comparison; not an official test result or correction for adaptive model selection."
+        }
+      ],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 26,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/26_gemma_lora_capacity_ablation.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "LoRA rank 8/16/32 x attention-only vs attention + MLP, 2 seeds each, on the holdout",
+  "outcome": "LoRA rank/target-module capacity ablation prepared; no completed execution result was recovered.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/26_gemma_lora_capacity_ablation.ipynb",
+    "notebook_sha256": "a1ed570f7a22be31170ca298bb0c0be79c498fdcaaa9277e9d907604a5e53963",
+    "code_cells_sha256": "9877869c435fe5ec64b258419ac2719ea3c104f45de939db649c49995ea1904e"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

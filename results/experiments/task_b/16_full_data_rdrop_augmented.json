@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 16,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/16_full_data_rdrop_augmented.ipynb",
+  "notebook_kind": "exclusion_record",
+  "status": "excluded_record",
+  "method": "Run 9 recipe on 3,159 gold rows + 779 multiclass-labelled binary comments",
+  "outcome": "Augmented full fit completed but used the excluded compiled label dataset; no confirmed competition score.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/16_full_data_rdrop_augmented.ipynb",
+    "notebook_sha256": "df74b240a345288bb670d3962ed248d21e8dbc1060962fd0a7417b7478164c6b",
+    "code_cells_sha256": "5113924d9e859e1b0fa0408b8eac935624c7cebff93b4b624e7953b8d34eb3bd"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run16_rdrop_augmented_full.log",
+      "sha256": "cb068d742413bc429c79226b287c710263fad6fc6240d0c9d093e45eb95bc3c9",
+      "line_count": 2624,
+      "commits_mentioned": [],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": "Consumes the excluded compiled dataset with unresolved evaluation overlap."
+}

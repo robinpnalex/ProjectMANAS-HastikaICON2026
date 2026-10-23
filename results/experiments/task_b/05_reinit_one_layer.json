@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 5,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/05_reinit_one_layer.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed",
+  "method": "one versus two reinitialized layers",
+  "outcome": "Matched five-fold OOF: one reinitialized encoder layer 0.6102 versus two layers 0.6013 macro-F1.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/05_reinit_one_layer.ipynb",
+    "notebook_sha256": "f88386dceedd2390fdcfffc8d6ad902cb6eca3d7c8f9f69bca08633ef76fba2c",
+    "code_cells_sha256": "89ae95cf571ffbbd76adf292afccade04797aae6df6b643097f34d331a56522f"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 24,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/24_tapt_epochs10_reinit2_oof.ipynb",
+  "notebook_kind": "exclusion_record",
+  "status": "excluded_record",
+  "method": "combine TAPT, ten epochs and two-layer reinitialization, then compare with a matched SVM and searched ensemble",
+  "outcome": "Prepared TAPT/epoch/reset OOF recipe includes evaluation-side text; no completed clean evaluation was recovered.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/24_tapt_epochs10_reinit2_oof.ipynb",
+    "notebook_sha256": "4313dc382b8240a380dceefbc5265e62553ecbb4dc93986514a689d9f422f533",
+    "code_cells_sha256": "5e5b8cb522b58ec6c29f9d5066e5a472bd3975a12193d802eecd936ce7f59152"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": "Historical TAPT sources include evaluation-side text."
+}

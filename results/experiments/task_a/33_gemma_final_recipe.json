@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "task": "a",
+  "run": 33,
+  "session": null,
+  "notebook": "notebooks/experiments/task_a/33_gemma_final_recipe.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_multiple_versions",
+  "method": "full-data fit, four 3-epoch seeds on all 7,193 rows",
+  "outcome": "Both non-TAPT and TAPT four-seed full-fit executions are recorded under Run 33. The TAPT four-model group is part of the official final A ensemble; the group itself has no independent local test score.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_a/33_gemma_final_recipe.ipynb",
+    "notebook_sha256": "c6ceac4209dbb2199e514135571516bcc076cdfe21e946330f6dc357af401ecb",
+    "code_cells_sha256": "c163f5a61d6cf37aa5f5d67fc38fb5549c0fa3f53983da279398ea3792980318"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_a/logs/run33_gemma_full_4seed.log",
+      "sha256": "e21aec23264bbb7a7bb98e93f91f6ba8514bdc4a14438dedee290f1299070d8d",
+      "line_count": 695,
+      "commits_mentioned": [
+        "a99bd69"
+      ],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    },
+    {
+      "research_log_path": "results/task_a/logs/run33_notapt_4seed_full.log",
+      "sha256": "e21aec23264bbb7a7bb98e93f91f6ba8514bdc4a14438dedee290f1299070d8d",
+      "line_count": 695,
+      "commits_mentioned": [
+        "a99bd69"
+      ],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    },
+    {
+      "research_log_path": "results/task_a/logs/run33_tapt_full.log",
+      "sha256": "a8b6f6e5d80f8e949c9e7e8794537b99aff420482fdb7c3d255e164667337d26",
+      "line_count": 801,
+      "commits_mentioned": [
+        "de2fc07"
+      ],
+      "metric_summaries": [],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 4,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

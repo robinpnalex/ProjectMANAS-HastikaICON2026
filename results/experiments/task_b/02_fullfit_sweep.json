@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 2,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/02_fullfit_sweep.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "full_fit_score_unconfirmed",
+  "method": "full-data five-seed versions",
+  "outcome": "Five-seed full-fit sweep recorded. A 0.6007 CodaBench validation score was inferred from download timing, not confirmed; it remains provisional.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/02_fullfit_sweep.ipynb",
+    "notebook_sha256": "ade2b3d97161660fd9f5945500c9389e4570c7548d81a935a93e9625be25eef0",
+    "code_cells_sha256": "6fbb899d080ba9dca504fd9036ab11e259389c19dd7b5be9209ad983011e8c6d"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

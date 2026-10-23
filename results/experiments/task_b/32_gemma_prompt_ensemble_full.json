@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 32,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/32_gemma_prompt_ensemble_full.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "no_matched_execution_log",
+  "method": "reproduce the Run 30 four-model prompt ensemble on all 3,532 labelled rows and infer the 396-row released test file",
+  "outcome": "Full-data prompt ensemble source prepared; no completed execution result was recovered.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/32_gemma_prompt_ensemble_full.ipynb",
+    "notebook_sha256": "79ae008af3d972112734a1cb73d6cd09d535f321b3a8bf52c6d0924ab57428c0",
+    "code_cells_sha256": "f7fc322f75a5f078242378b92e586f137e6d79060f424aae4a464f8397e851d6"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}

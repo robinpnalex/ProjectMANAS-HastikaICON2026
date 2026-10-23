@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "task": "b",
+  "run": 21,
+  "session": null,
+  "notebook": "notebooks/experiments/task_b/21_llm_confirm_final.ipynb",
+  "notebook_kind": "historical_snapshot",
+  "status": "completed_with_packaging_failure",
+  "method": "Gemma-4-12B QLoRA vs the Run 9 MuRIL recipe on the 530-row holdout, then full fits on 3,532 rows",
+  "outcome": "Two-seed Gemma holdout macro-F1 0.6792 versus MuRIL 0.6151; mixture 0.6825. Full fits completed, but packaging initially looked for the wrong probability filename.",
+  "source": {
+    "research_repository": "https://github.com/robinpnalex/Hastika-ICON2026",
+    "export_commit": "9282c844fd299493860b052bd41bd4700be9c0dd",
+    "original_path": "notebooks/task_b/21_llm_confirm_final.ipynb",
+    "notebook_sha256": "224870f370be430ff6d6de76cfab0a37384675f018f02369f3563fd42b3c0c9d",
+    "code_cells_sha256": "80a7da47071acf1664c2b7895df975524031c7804597752474c15757c59507e6"
+  },
+  "result_binding": "Historical outcomes, not measurements rerun in this release. Regenerated source can differ from its measured execution.",
+  "logs": [
+    {
+      "research_log_path": "results/task_b/logs/run21_gemma12b_holdout_full.log",
+      "sha256": "e4e17385e01ed36ba384de6a07eab0208981687893e24c4cfcccc47ff9584bfd",
+      "line_count": 730,
+      "commits_mentioned": [
+        "92939e4"
+      ],
+      "metric_summaries": [
+        {
+          "line": 706,
+          "label": "MuRIL (Run 9 recipe)",
+          "macro_f1": 0.6151,
+          "accuracy": 0.6509,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.704,
+            "Geo-political": 0.642,
+            "Others": 0.5,
+            "Political": 0.789,
+            "Religion": 0.672,
+            "Violence": 0.383
+          }
+        },
+        {
+          "line": 707,
+          "label": "gemma-4-12b seed 42",
+          "macro_f1": 0.6566,
+          "accuracy": 0.7057,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.769,
+            "Geo-political": 0.657,
+            "Others": 0.513,
+            "Political": 0.812,
+            "Religion": 0.779,
+            "Violence": 0.41
+          }
+        },
+        {
+          "line": 709,
+          "label": "gemma-4-12b seed 43",
+          "macro_f1": 0.6613,
+          "accuracy": 0.7094,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.77,
+            "Geo-political": 0.62,
+            "Others": 0.533,
+            "Political": 0.812,
+            "Religion": 0.797,
+            "Violence": 0.436
+          }
+        },
+        {
+          "line": 711,
+          "label": "gemma-4-12b, 2 seed(s)",
+          "macro_f1": 0.6792,
+          "accuracy": 0.7283,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.793,
+            "Geo-political": 0.712,
+            "Others": 0.566,
+            "Political": 0.806,
+            "Religion": 0.788,
+            "Violence": 0.41
+          }
+        },
+        {
+          "line": 712,
+          "label": "ensemble 50/50",
+          "macro_f1": 0.6825,
+          "accuracy": 0.7302,
+          "interpretation": "Logged summary; may be a single seed, training diagnostic, fitted threshold, OOF, holdout or group. Use the label and notebook outcome; not automatically an official result.",
+          "per_class_f1": {
+            "Gender": 0.787,
+            "Geo-political": 0.701,
+            "Others": 0.594,
+            "Political": 0.821,
+            "Religion": 0.787,
+            "Violence": 0.405
+          }
+        }
+      ],
+      "paired_comparisons": [],
+      "binding": "Same run-number evidence; not proof that this current notebook file was the executed revision."
+    }
+  ],
+  "final_ensemble_members_contributed": 0,
+  "individual_official_final_score": null,
+  "score_note": "Full-fit components do not receive the collective final ensemble score. Unrun/failed cases do not receive invented scores.",
+  "exclusion_reason": null
+}
